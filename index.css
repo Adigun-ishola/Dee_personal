@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #d9d9d9;
+}
+
+header {
+  text-align: center;
+  background: url(../img/OIP.jpg) no-repeat center center/cover;
+  height: 200px;
+}
+header .profile-picture {
+  position: absolute;
+  -webkit-margin-start: 35em;
+          margin-inline-start: 35em;
+  margin-top: 6em;
+  background-color: white;
+  border-radius: 50%;
+  border-top: 10px solid red;
+  width: 13%;
+  height: 26%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+header .profile-picture img {
+  position: absolute;
+  -webkit-margin-start: -6.5em;
+          margin-inline-start: -6.5em;
+  margin-top: -1em;
+}
+
+.headings {
+  text-align: center;
+  font-family: "Montserrat";
+  margin-top: 6em;
+}
+.headings h1 {
+  font: weight 900px;
+  padding-bottom: 0.5em;
+  z-index: 1;
+}
+.headings nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+.headings nav ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em 5em 2em 5em;
+}
+.social-icons .link {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+}
+.social-icons .link img {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px;
+}
+.social-icons .link a {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 900;
+}/*# sourceMappingURL=index.css.map */
